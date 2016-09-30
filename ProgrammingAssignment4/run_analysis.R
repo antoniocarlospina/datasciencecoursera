@@ -100,8 +100,11 @@ meltdata <- melt(mergedata, id = c("SubjectID","ActivityID","ActivityName"))
 rm(mergedata)
 #Using dcast to apply mean
 tidy <- dcast(meltdata, SubjectID + ActivityID + ActivityName ~ variable, mean)
-cat("... Writing final file ./UCI HAR Dataset/tidy.csv\n")
-write.csv(tidy, "tidy.csv", row.names=FALSE)
+#previously written in CSV format, written in TXT per Course's Request
+#cat("... Writing final file ./UCI HAR Dataset/tidy.csv\n")
+#write.csv(tidy, "tidy.csv", row.names=FALSE)
+cat("... Writing final file ./UCI HAR Dataset/tidy.txt\n")
+write.table(tidy, "tidy.txt", row.names=FALSE)
 #
 #STEP final: Return the environment
 #
@@ -109,4 +112,5 @@ cat("... Returning to original dir\n")
 setwd(my_dir)
 cat("... Removing the ZIP file\n")
 file.remove(my_file)
-cat("End of Execution. Look ./UCI HAR Dataset/tidy.csv\n")
+#cat("End of Execution. Look ./UCI HAR Dataset/tidy.csv\n")
+cat("End of Execution. Look ./UCI HAR Dataset/tidy.txt\n")

@@ -104,7 +104,7 @@ For this assignment, we had to:
 * Add labels to all columns
 * Generate a tidy file with the average of all variables by Subject and Activity
 
-## tidy.csv file ##
+## tidy.txt file ##
 
 * SubjectID - unique ID of user of the device                  
 * ActivityID - unique ID of the Activity 

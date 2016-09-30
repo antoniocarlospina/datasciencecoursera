@@ -15,7 +15,7 @@ a dataset, transforming unformatted data in tidy data for further analysis.
 
 This project includes:
 
-* the tidy data set result of the script (**tidy.csv**)
+* the tidy data set result of the script (**tidy.txt**)
 * the script that performs the transformation of the data (**run_analysis.R**)
 * a code book that describes the data and how it was transformed
 * this file
