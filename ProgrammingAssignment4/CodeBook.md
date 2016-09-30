@@ -69,30 +69,30 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 The result of this combination is a set of 561 variables in this format:
 
-1 tBodyAcc-mean()-X
-2 tBodyAcc-mean()-Y
-3 tBodyAcc-mean()-Z
-4 tBodyAcc-std()-X
-5 tBodyAcc-std()-Y
-6 tBodyAcc-std()-Z
-7 tBodyAcc-mad()-X
-8 tBodyAcc-mad()-Y
-9 tBodyAcc-mad()-Z
-10 tBodyAcc-max()-X
-11 tBodyAcc-max()-Y
-12 tBodyAcc-max()-Z
-13 tBodyAcc-min()-X
-14 tBodyAcc-min()-Y
-15 tBodyAcc-min()-Z
-16 tBodyAcc-sma()
-17 tBodyAcc-energy()-X
-18 tBodyAcc-energy()-Y
-19 tBodyAcc-energy()-Z
-20 tBodyAcc-iqr()-X
-21 tBodyAcc-iqr()-Y
-22 tBodyAcc-iqr()-Z
+tBodyAcc-mean()-X
+tBodyAcc-mean()-Y
+tBodyAcc-mean()-Z
+tBodyAcc-std()-X
+tBodyAcc-std()-Y
+tBodyAcc-std()-Z
+tBodyAcc-mad()-X
+tBodyAcc-mad()-Y
+tBodyAcc-mad()-Z
+tBodyAcc-max()-X
+tBodyAcc-max()-Y
+tBodyAcc-max()-Z
+tBodyAcc-min()-X
+tBodyAcc-min()-Y
+tBodyAcc-min()-Z
+tBodyAcc-sma()
+tBodyAcc-energy()-X
+tBodyAcc-energy()-Y
+tBodyAcc-energy()-Z
+tBodyAcc-iqr()-X
+tBodyAcc-iqr()-Y
+tBodyAcc-iqr()-Z
 
-... see complete list in ** features.txt**
+... see complete list in **features.txt**
 
 ## Transformation ##
 
