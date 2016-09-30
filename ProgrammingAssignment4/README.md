@@ -20,7 +20,7 @@ This project includes:
 * a code book that describes the data and how it was transformed
 * this file
 
-## The unformatted data ##
+## The unformatted data set ##
 
 The data source is a collection of data acquired from the accelerometers from a Samsung Galaxy S smartphone. It's the so called "Wearable Computing" (think Fitbit, Apple Watch, etc) where those devices performing continuous monitoring on our movements.
 
